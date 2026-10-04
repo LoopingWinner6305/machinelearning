@@ -1,0 +1,57 @@
+{
+  "rows": 303,
+  "train_rows": 227,
+  "test_rows": 76,
+  "missing_cells": 6,
+  "seed": 42,
+  "selected_ccp_alpha": 0.01,
+  "cv_balanced_accuracy": 0.8064285714285713,
+  "cv_fold_std": 0.053520557857506354,
+  "models": {
+    "majority_baseline": {
+      "accuracy": 0.5394736842105263,
+      "balanced_accuracy": 0.5,
+      "f1": 0.0,
+      "confusion_matrix": [
+        [
+          41,
+          0
+        ],
+        [
+          35,
+          0
+        ]
+      ]
+    },
+    "logistic_baseline": {
+      "accuracy": 0.8552631578947368,
+      "balanced_accuracy": 0.8554006968641115,
+      "f1": 0.8450704225352113,
+      "confusion_matrix": [
+        [
+          35,
+          6
+        ],
+        [
+          5,
+          30
+        ]
+      ]
+    },
+    "pruned_tree": {
+      "accuracy": 0.7631578947368421,
+      "balanced_accuracy": 0.759581881533101,
+      "f1": 0.7352941176470589,
+      "confusion_matrix": [
+        [
+          33,
+          8
+        ],
+        [
+          10,
+          25
+        ]
+      ]
+    }
+  }
+}
